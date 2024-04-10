@@ -16,34 +16,6 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
-.options ul {
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-    list-style: none;
-}
-.options li a{
-    font-size: 18px;
-    padding-right: 20px;
-}
-.options li a:hover {
-    color: #F08E75;
-    transition: 0.3s ease;
-}
-
-.bi-brightness-high-fill,
-.bi-globe {
-    cursor: pointer;
-}
-
-.bi-brightness-high-fill:hover {
-    filter: drop-shadow(0 0 0.9rem rgb(255, 255, 255));
-}
-
-.bi-globe:hover {
-    filter: drop-shadow(0 0 0.9rem rgb(0, 65, 204));
-}
-
 nav img {
     width: 150px;
     border-radius: 30px;
@@ -53,7 +25,6 @@ nav img {
 nav img:hover {
     transform: scale(1.1);
 }
-
 #search-container {
     display: flex;
     flex-direction: column;
@@ -83,17 +54,38 @@ a {
     color: #e8e2da;
     font-weight: 600;
 }
-
-/* main {
+.options ul {
     display: flex;
-    flex-direction: row;
-    padding: 50px;
-} */
+    justify-content: space-between;
+    gap: 30px;
+    list-style: none;
+}
+.options li a{
+    font-size: 18px;
+    padding-right: 20px;
+}
+.options li a:hover {
+    color: #F08E75;
+    transition: 0.3s ease;
+}
+
+.bi-brightness-high-fill,
+.bi-globe {
+    cursor: pointer;
+}
+
+.bi-brightness-high-fill:hover {
+    filter: drop-shadow(0 0 0.9rem rgb(255, 255, 255));
+}
+
+.bi-globe:hover {
+    filter: drop-shadow(0 0 0.9rem rgb(0, 65, 204));
+}
 #products-section {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    margin: 30px;
+    align-items: center;
+    margin: 20px;
 }
 
 .flashcard {
@@ -108,7 +100,6 @@ a {
 
 .flashcard:hover {
     transform: scale(1.1);
-    /* box-shadow: 15px 0px 40px black; */
     filter: drop-shadow(0 0 1rem crimson);
     opacity: 100%;
 }
@@ -123,10 +114,42 @@ a {
     padding: 10px;
     margin-top: -4px;
 }
-footer{
-    background-color: black;
-    height: 200px;
+
+#footer-content{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    height: 400px;
+    background-color: #171D25;
+}
+.company-name{
+    margin: 20px;
+    font-size: 40px;
+}
+.footer-links{
+    font-size: 10px;
+}
+.footer-links ul{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+
+}
+.footer-links ul li a{
+    padding: 8px 16px;
+    font-size: 20px;
+    font-family: Roboto, Helvetica, sans-serif;
+    color: #e8e2da;
+    text-transform: uppercase;
+    font-weight: 650;
+}
+.footer-links ul li a:hover{
+    background-color: rgb(77, 77, 77);
+    border-radius: 30px;
+    transition: 0.5s ease;
 }
