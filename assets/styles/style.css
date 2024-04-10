@@ -8,7 +8,9 @@ body {
     color: #FCF5E5;
     font-family: Roboto, Helvetica, sans-serif;
 }
-
+#main{
+    display: flex;
+}
 nav {
     color: #e8e2da;
     background-color: #171D25;
@@ -115,8 +117,16 @@ a {
     line-height: 32px;
     padding: 10px;
     margin-top: -4px;
-}
+} /* end of products section */
 
+.trending-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.trending-description{
+    
+}
 #footer-content{
     display: flex;
     flex-direction: column;
