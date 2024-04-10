@@ -16,37 +16,17 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
-
-/* .options ul {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-}
-
-.options ul li {
-    display: inline;
-    font-size: 20px;
-    padding: 0 30px 0;
-    color: white;
-}
-
-.logo-section {
-    width: 00px;
-}
-
-*/
-.options {
-    display: flex;
-    align-items: flex-end;
-}
-
 .options ul {
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
+    gap: 30px;
     list-style: none;
 }
-
-.options li:hover {
+.options li a{
+    font-size: 18px;
+    padding-right: 20px;
+}
+.options li a:hover {
     color: #F08E75;
     transition: 0.3s ease;
 }
@@ -142,4 +122,11 @@ a {
     line-height: 32px;
     padding: 10px;
     margin-top: -4px;
+}
+footer{
+    background-color: black;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
