@@ -168,7 +168,6 @@ a {
     align-items: center;
     flex-wrap: wrap;
     padding: 30px;
-
 }
 .footer-links ul li a{
     padding: 8px 16px;
@@ -182,4 +181,17 @@ a {
     background-color: rgb(77, 77, 77);
     border-radius: 30px;
     transition: 0.5s ease;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.socials ul{
+    display: flex;
+}
+.socials li{
+    list-style: none;
 }
