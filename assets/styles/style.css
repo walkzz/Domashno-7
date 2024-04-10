@@ -87,15 +87,17 @@ a {
     align-items: center;
     margin: 20px;
 }
-
+#products-section img{
+    width: 330px;
+    height: 154px;
+}
 .flashcard {
     cursor: pointer;
     font-size: 15px;
     width: 330px;
     transition: 0.6s ease;
-    opacity: 80%;
+    opacity: 90%;
     padding: 20px;
-    border-radius: 30px;
 }
 
 .flashcard:hover {
@@ -126,6 +128,9 @@ a {
 .company-name{
     margin: 20px;
     font-size: 40px;
+}
+.company-name span{
+    font-weight: 700;
 }
 .footer-links{
     font-size: 10px;
