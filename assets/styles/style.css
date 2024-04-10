@@ -187,10 +187,11 @@ a {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    margin: 30px;
 }
 .socials ul{
     display: flex;
+    gap: 20px;
 }
 .socials li{
     list-style: none;
