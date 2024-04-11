@@ -84,11 +84,11 @@ a {
 }
 
 .bi-brightness-high-fill:hover {
-    filter: drop-shadow(0 0 0.9rem rgb(255, 255, 255));
+    border-bottom: 2px solid #F08E75;
 }
 
 .bi-globe:hover {
-    filter: drop-shadow(0 0 0.9rem rgb(0, 65, 204));
+    border-bottom: 2px solid #F08E75;
 }
 
 #products-section {
