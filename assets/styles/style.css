@@ -221,6 +221,3 @@ a {
 .socials li {
     list-style: none;
 }
-.socials li:hover{
-    filter: drop-shadow(0 -1mm 3mm crimson);
-}
