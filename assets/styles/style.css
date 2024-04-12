@@ -173,17 +173,13 @@ a {
     font-weight: 700;
 }
 
-.footer-links {
-    font-size: 10px;
-}
-
 .footer-links ul {
     display: flex;
     list-style: none;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    font-size: 10px;
     margin: 30px;
     gap: 20px;
 }
@@ -207,7 +203,6 @@ a {
 
 .socials {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     margin: 30px;
@@ -222,6 +217,7 @@ a {
     list-style: none;
     transition: 0.3s ease;
 }
-.socials li:hover{
+
+.socials li:hover {
     transform: translateY(-7%);
 }
