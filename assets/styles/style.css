@@ -52,7 +52,8 @@ nav img:hover {
 
 #search-game:hover,
 #search-game:focus {
-    box-shadow: 0px 8px 5px crimson;
+    /* box-shadow: 0px 8px 5px crimson; */
+    filter: drop-shadow(0 0 0.80rem rgb(68, 87, 253));
 }
 
 a {
