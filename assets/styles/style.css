@@ -160,12 +160,11 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 400px;
     background-color: #171D25;
 }
 
 .company-name {
-    margin: 20px;
+    margin: 30px;
     font-size: 40px;
 }
 
