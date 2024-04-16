@@ -140,6 +140,7 @@ a {
     top: 0px;
     cursor: pointer;
     transition: 0.3s ease;
+    margin: 60px 90px 0 0; /* top right bottom left */
 }
 
 .trending-box:hover {
