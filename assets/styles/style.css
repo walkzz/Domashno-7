@@ -12,8 +12,8 @@ body {
 #main {
   display: flex;
 }
-#toggleMenu{
-    user-select: none;
+#toggleMenu {
+  user-select: none;
 }
 #menu {
   background: black;
@@ -22,22 +22,21 @@ body {
   top: 175px;
   margin: -90px 0 0 -50px;
   padding: 50px;
-  padding-bottom: 15px;
   list-style: none;
   transition: left 0.2s;
   width: 220px;
 }
-#menu li{
-    font-size: 20px;
-    padding-bottom: 30px;
+#menu li {
+  font-size: 20px;
+  padding-bottom: 30px;
 }
-.icons{
+.icons {
   display: flex;
   justify-content: space-between;
   gap: 20px;
 }
 #toggleMenu input:checked ~ ul {
-    left: 40px;
+  left: 40px;
 }
 nav {
   color: #e8e2da;
@@ -100,23 +99,18 @@ a {
   font-size: 18px;
   padding-right: 20px;
 }
-
 .options li a:hover {
   color: #f08e75;
   transition: 0.3s ease;
 }
 
-.bi-brightness-high-fill,
-.bi-globe {
-  cursor: pointer;
-}
-
+.flashcard,
+.trending-box,
+#toggleMenu input,
+.bi-search,
+.bi-globe,
 .bi-brightness-high-fill:hover {
-  border-bottom: 2px solid #f08e75;
-}
-
-.bi-globe:hover {
-  border-bottom: 2px solid #f08e75;
+  cursor: pointer;
 }
 
 #products-section {
@@ -132,7 +126,6 @@ a {
 }
 
 .flashcard {
-  cursor: pointer;
   font-size: 15px;
   width: 330px;
   transition: 0.5s ease;
@@ -166,7 +159,6 @@ a {
   position: sticky;
   border-radius: 20px;
   top: 0px;
-  cursor: pointer;
   transition: 0.3s ease;
   margin: 60px 90px 0 0; /* top right bottom left */
 }
@@ -273,13 +265,11 @@ a {
     position: absolute;
     z-index: 3;
     opacity: 0;
-    cursor: pointer;
     top: 15px;
     left: 15px;
     width: 60px;
     height: 60px;
   }
-
   aside {
     display: none;
   }
