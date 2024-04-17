@@ -18,7 +18,7 @@ body {
 #menu {
   background: black;
   position: absolute;
-  border-top: 2px solid orange;
+  border-top: 2px solid crimson;
   left: -500px;
   top: 175px;
   margin: -90px 0 0 -50px;
@@ -45,6 +45,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 3px solid crimson;
 }
 
 nav img {
@@ -106,6 +107,7 @@ a {
 }
 
 .flashcard,
+.knapp,
 .trending-box,
 #toggleMenu input,
 .bi-search,
@@ -246,6 +248,24 @@ a {
 .socials li:hover {
   transform: translateY(-7%);
 }
+
+/* a .knapp {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  bottom: 80;
+  right: 0;
+  width: 70px;
+  height: 70px;
+
+}
+.knapp img{
+  width: 70px;
+  z-index: 4;
+}
+.knapp:hover{
+  filter: drop-shadow(0 3mm 4mm rgb(160, 0, 210));
+} */
 
 /*---------->MEDIA QUERY<----------*/
 
