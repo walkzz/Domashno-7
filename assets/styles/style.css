@@ -278,6 +278,10 @@ a {
   aside{
     display: none;
   }
+  #trending-box-container{
+    display: flex;
+    justify-content: space-around;
+}
   .trending-box-mobile{
     display: flex;
     flex-direction: column;
@@ -304,5 +308,12 @@ a {
   .nav-menu {
     display: block;
     z-index: 100;
+  }
+  .footer-links ul{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-links ul li{
+    padding: 20px;
   }
 }
