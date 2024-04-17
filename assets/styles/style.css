@@ -18,6 +18,7 @@ body {
 #menu {
   background: black;
   position: absolute;
+  border-top: 2px solid orange;
   left: -500px;
   top: 175px;
   margin: -90px 0 0 -50px;
@@ -151,6 +152,10 @@ a {
 }
 
 /* end of products section */
+.trending-box-mobile{
+  display: none;
+}
+
 .trending-box {
   width: fit-content;
   background-color: black;
@@ -270,8 +275,22 @@ a {
     width: 60px;
     height: 60px;
   }
-  aside {
+  aside{
     display: none;
+  }
+  .trending-box-mobile{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: black;
+    position: relative;
+    margin: 15px;
+  }
+  .trending-box-mobile img{
+    width: 400px;
+  }
+  .trending-description{
+    width: 360px;
   }
   #products-section {
     justify-content: space-evenly;
