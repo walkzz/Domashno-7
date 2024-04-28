@@ -18,9 +18,9 @@ body {
 #menu {
   background: black;
   position: absolute;
-  border-top: 2px solid crimson;
+  border-top: 3px solid crimson;
   left: -500px;
-  top: 175px;
+  top: 177px;
   margin: -90px 0 0 -50px;
   padding: 50px;
   list-style: none;
