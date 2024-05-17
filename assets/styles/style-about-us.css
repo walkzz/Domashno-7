@@ -14,12 +14,13 @@ body{
     align-items: center;
     font-weight: 500;
     font-size: 18px;
+    padding-bottom: 20px;
 }
 #container-about-us img{
     width: 200px;
 }
 #rated-games-desc h1{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 #rated-games-desc{
     width: 700px;
@@ -28,6 +29,7 @@ body{
     padding: 30px;
     line-height: 150%;
     transition: 0.2s ease-in-out;
+    margin-bottom: 50px;
 }
 #rated-games-desc h1{
     text-align: center;
